@@ -8,6 +8,7 @@ fs.readFile(path.join(process.cwd(), '.env'), 'utf8', (err, data) => {
     console.error(err);
     return;
   }
+  console.log(data)
 
   const output: string[] = [];
 
@@ -26,14 +27,12 @@ fs.readFile(path.join(process.cwd(), '.env'), 'utf8', (err, data) => {
     }
     output.push(line.split('=')[0] + '=');
   });
+  console.log(output)
 
-  fs.writeFile(
+  fs.writeFileSync(
     path.join(process.cwd(), '.env.example'),
     output.join('\n'),
-    { flag: 'w+' },
-    (err) => {
-      console.error(err);
-    }
+    { flag: 'w+' }
   );
 
   console.log('✨ .env.example successfully generated.');
