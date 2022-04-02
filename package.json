@@ -1,0 +1,36 @@
+{
+  "name": "env-example",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "bin": "dist/index.js",
+  "author": "Regina Liu <reginaliuyx@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gilite/env-example.git"
+  },
+  "homepage": "https://github.com/gilite/env-example#readme",
+  "license": "MIT",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "watch": "tsc-watch -p ./tsconfig.json --onSuccess \"node ./dist/index.js\""
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "tsc-watch": "^4.6.2",
+    "tsconfig.json": "^1.0.11",
+    "typescript": "^4.6.3"
+  },
+  "keywords": [
+    "dotenv",
+    "dotenv-example",
+    "secrets",
+    "config"
+  ],
+  "dependencies": {
+    "env-example": "^1.0.8"
+  }
+}
