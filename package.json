@@ -29,8 +29,5 @@
     "dotenv-example",
     "secrets",
     "config"
-  ],
-  "dependencies": {
-    "env-example": "^1.0.8"
-  }
+  ]
 }

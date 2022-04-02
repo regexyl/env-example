@@ -86,11 +86,6 @@ duplexer@~0.1.1:
   resolved "https://registry.yarnpkg.com/duplexer/-/duplexer-0.1.2.tgz#3abe43aef3835f8ae077d136ddce0f276b0400e6"
   integrity sha512-jtD6YG370ZCIi/9GTaJKQxWTZD045+4R4hTk/x1UyoqadyJ9x9CgSi1RlVDQF8U2sxLLSnFkCaMihqljHIWgMg==
 
-env-example@^1.0.8:
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/env-example/-/env-example-1.0.8.tgz#1fd6ae905673de55b92e00f8af6be73650b6c0e6"
-  integrity sha512-JeYj+5cf/RV+L7Bqb3ou8SRVnW5ahAThNNWZWJ7Ylmp89n5ZHMV3uX/Iz3BAJUan6MXz/CBs++GP0nNUb9P8LQ==
-
 escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
